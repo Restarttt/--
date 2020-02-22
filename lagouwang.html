@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    a {
+        text-decoration: none;
+    }
+    input {
+        border: 0;
+    }
+
+    .big {
+        width: 100%;
+        height: 165px;
+        background-color: #f2f5f4;
+    }
+
+    .search {
+        width: 1000px;
+        height: 60px;
+        background-color: #ffffff;
+        /* border: 1px solid #8e8f8e; */
+        margin: 0 auto;
+        position: relative;
+        top: 59px;
+    }
+    input {
+        width: 80%;
+        height: 100%;
+        font-size: 18px;
+        color: #bebebe;
+        padding-left: 10px;
+
+    }
+    button {
+        width: 186px;
+        height: 100%;
+        background-color: #00b38a;
+        font-size: 18px;
+        position: relative;
+        top: -60px;
+        left: 814px;
+        border: 1px solid #8e8e8e;
+    } 
+
+    .message {
+        width: 500px;
+        /* height: 100px; */
+        color: #00b38a;
+        /* margin: 0 auto;
+         */
+    }
+
+    .message ul {
+        height: 50px;
+        position: relative;
+        bottom: 33px;
+        left: 268px;
+    }
+
+    .message ul li {
+        float: left;
+        list-style: none;
+        text-align: center;
+        margin-right: 25px;
+    }
+
+    .message-1 {
+        color: #77779f;
+    }
+
+    .message-2:hover {
+        text-decoration: underline;
+    }
+</style>
+
+<body>
+    <!-- 大的主框 -->
+    <div class="big">
+        <!-- 搜索框 -->
+        <div class="search">
+            <input type="text " value="汽车之家">
+            <!-- 按钮 -->
+            <button type="submit" value="submit">
+                搜索              
+            </button>
+            <!-- <input class="serch-2" type="buttons" value="搜索"> -->
+        </div>
+    </div>
+    <!-- 文字信息 -->
+    <div class="message">
+        <ul>
+            <li class="message-1">热门搜索：</li>
+            <a href="#" target="blank">
+                <li class="message-2">腾讯产品</li>
+            </a>
+            <a href="#" target="blank">
+                <li class="message-2">Java面试</li>
+            </a>
+            <a href="" target="blank">
+                <li class="message-2">面试分享</li>
+            </a>
+            <a href="#" target="blank">
+                <li class="message-2">C++</li>
+            </a>
+
+        </ul>
+
+    </div>
+
+    </div>
+</body>
+
+</html>
