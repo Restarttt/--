@@ -1,4 +1,5 @@
 /* 导航栏 */
+
 * {
     padding: 0;
     margin: 0;
@@ -8,7 +9,13 @@ a {
     text-decoration: none;
 }
 
-/* 整体 */
+input {
+    border: 0;
+}
+
+
+/* 第一部分整体 */
+
 .header {
     width: 100%;
     height: 40px;
@@ -16,18 +23,21 @@ a {
 }
 
 .nav {
-    width: 1400px;
+    width: 1282px;
     height: 100%;
     margin: 0 auto;
     text-align: center;
     /* background-color: azure; */
     display: flex;
 }
+
+
 /* 左边部分logo */
+
 .left {
     width: 236px;
     height: 100%;
-    
+    vertical-align: top;
     /* display: inline-block; */
     /* background-color: #ff00ff; */
 }
@@ -35,21 +45,21 @@ a {
 .left ul {
     line-height: 40px;
     text-align: center;
-    
 }
 
 .left ul li {
-    display: inline-block;   
+    vertical-align: top;
+    display: inline-block;
 }
+
 .left ul li a {
     line-height: 40px;
 }
 
-.left-1 a{
+.left-1 a {
     color: #00B38A;
     font-size: 25px;
     margin-right: 35px;
-
 }
 
 .left-2 {
@@ -57,15 +67,18 @@ a {
     margin-right: 12px;
 }
 
-.left-3 a{
+.left-3 a {
     color: #afafaf;
     font-size: 13px;
 }
 
-.left-3 a:hover { 
+.left-3 a:hover {
     color: #ffffff;
-} 
+}
+
+
 /* 中间部分 nav */
+
 .middle {
     width: 390px;
     height: 100%;
@@ -76,58 +89,67 @@ a {
     display: inline-block;
     margin-right: 24px;
     line-height: 39px;
-   
 }
-.middle ul li a{
+
+.middle ul li a {
     color: #afafaf;
     font-size: 14px;
 }
+
 .middle-1 {
     width: 88px;
     text-align: center;
     /* height: 50px; */
     background-color: #24282C;
 }
+
 .middle ul li a:hover {
     color: #ffffff;
 }
+
 .middle-2 {
     position: relative;
 }
+
 .middle-2 span {
     display: inline-block;
     width: 29px;
-    height: 18px;
-   background-color: #FF7452; 
-   font-size: 13px;
-   color: #ffffff;
-   border-radius: 13px;
-   position: absolute;
-    left: 20px;
-    top: -10px;   
-    
-} 
+    height: 17px;
+    line-height: 17px;
+    background-color: #FF7452;
+    font-size: 12px;
+    color: #ffffff;
+    border-radius: 13px;
+    position: absolute;
+    left: 24px;
+    top: 3px
+}
+
+
 /* 右边登录部分 */
-.right { 
+
+.right {
     width: 570px;
     height: 100%;
     margin-left: 50px;
     margin: 0 auto;
-
 }
+
 .right ul li {
     display: inline-block;
     margin-right: 12px;
     line-height: 40px;
-    
 }
+
 .right ul li a {
-    color: #afafaf;    
+    color: #afafaf;
     font-size: 14px;
 }
+
 .right-1 {
     margin-left: 32px;
 }
+
 .right-1 span {
     display: inline-block;
     width: 18px;
@@ -137,18 +159,20 @@ a {
     text-align: center;
     margin-right: 10px;
     /* position: absolute; */
-
 }
+
 .right-2 {
     margin-left: 32px;
 }
+
 .right-2 span a {
     color: #00C295;
 }
+
 .right-2 span a:hover {
     color: #00b38a;
-    
 }
+
 .right-2 span {
     display: inline-block;
     width: 18px;
@@ -158,8 +182,270 @@ a {
     text-align: center;
     margin-right: 10px;
 }
-.right ul li a:hover{
+
+.right ul li a:hover {
     color: #ffffff;
- 
 }
-/* 第二块大图 */
+
+.content {
+    width: 1200px;
+}
+
+
+/* 第二部分整体大框 */
+
+.content {
+    width: 100%;
+    height: 120px;
+    background-color: #00b38a;
+}
+
+
+/* 内容大框 */
+
+.total {
+    width: 1298px;
+    height: 120px;
+    margin: 0 auto;
+    display: flex;
+}
+
+
+/* 左边logo部分 */
+
+.logo {
+    width: 680px;
+    height: 100%;
+    text-align: center;
+}
+
+.logo-1 {
+    display: inline-block;
+}
+
+.logo-2 {
+    display: inline-block;
+    position: relative;
+    bottom: 32px;
+}
+
+.logo-2 h3 {
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: 4px;
+}
+
+
+/* 右边登录界面 */
+
+.login {
+    width: 780px;
+    height: 100%;
+    line-height: 120px;
+    text-align: center;
+}
+
+.login-1 {
+    width: 203px;
+    height: 35px;
+    background-color: #ffffff;
+    position: relative;
+    color: #bbbbbb;
+    font-size: 14px;
+    padding-left: 8px;
+    margin: 25px;
+}
+
+.login span {
+    position: absolute;
+    right: 663px;
+    top: 46px;
+    font-size: 14px;
+}
+
+.login-2 {
+    width: 94px;
+    height: 35px;
+    background-color: #ffffff;
+    /* margin-left: 15px; */
+    color: #bbbbbb;
+    font-size: 14px;
+    display: inline-block;
+    line-height: 35px;
+}
+
+.login-3 {
+    width: 94px;
+    height: 35px;
+    background-color: #ffffff;
+    color: #bbbbbb;
+    font-size: 14px;
+    display: inline-block;
+    line-height: 35px;
+}
+
+.login-3 {
+    display: inline-block;
+    width: 60px;
+    height: 35px;
+    background-color: #ffffff;
+    color: #00B38A;
+    font-size: 14px;
+}
+
+.login button {
+    display: inline-block;
+    width: 107px;
+    height: 35px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #00b38a;
+    border: 1px solid #ffffff;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.login button:hover {
+    background: rgba(255, 255, 255, .25);
+}
+
+
+/* 第三部分大盒子 */
+
+.big {
+    width: 100%;
+    height: 134px;
+    background-color: #F2F5F4;
+}
+
+.inner {
+    /* display: inline-block; */
+    width: 850px;
+    height: 74px;
+    margin: 0 auto;
+    padding: 30px 0 30px 0;
+    /* line-height: 74px; */
+    /* background-color: #ffff00; */
+    /* text-align: center;
+    line-height: 130px; */
+}
+
+
+/* 搜索框 */
+
+.big-1 {
+    width: 850px;
+    height: 46px;
+}
+
+input {
+    width: 700px;
+    height: 100%;
+    font-size: 18px;
+    color: #bebebe;
+    padding-left: 10px;
+}
+
+button {
+    width: 140px;
+    height: 100%;
+    background-color: #00b38a;
+    font-size: 14px;
+    border: none;
+    color: #ffffff;
+}
+
+
+/* 搜索框下的文字信息 */
+
+.message {
+    width: 500px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+.message ul li {
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.message-1 {
+    color: #777777;
+}
+
+.message-2 a {
+    color: #00b38a;
+    font-size: 14px;
+}
+
+.message-2:hover {
+    text-decoration: underline;
+}
+
+
+/* 第四个框架内容 */
+
+.main {
+    width: 100%;
+    height: 3000px;
+}
+
+.main-1 {
+    width: 1200px;
+    height: 3000px;
+    /* background-color: #FF7452; */
+    margin: 40px auto 0;
+    display: flex;
+}
+
+.column {
+    width: 321px;
+    height: 383px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+}
+
+.column ul li a {
+    color: #555555;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+/* 第一部分 */
+
+.column-1 {
+    width: 321px;
+    height: 20px;
+    padding-bottom: 26px;
+}
+
+.column ul {
+    display: inline-block;
+}
+
+.column-1 ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 350;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.column ul li a:hover {
+    color: #00B38A;
+    text-decoration: underline;
+}
+
+.picture {
+    margin-left: 39px;
+    width: 840px;
+    height: 346px;
+    flex: 1;
+}
