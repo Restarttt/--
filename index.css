@@ -165,8 +165,23 @@ input {
     /* position: absolute; */
 }
 
+.right-1 img {
+    width: 18px;
+    height: 18px;
+    position: relative;
+    top: 3px;
+}
+
 .right-2 {
     margin-left: 32px;
+}
+
+.right-2 img {
+    width: 12px;
+    height: 18px;
+    position: relative;
+    top: 3px;
+    left: -10px;
 }
 
 .right-2 span a {
@@ -318,7 +333,7 @@ input {
 
 .big {
     width: 100%;
-    height: 134px;
+    height: 132px;
     background-color: #F2F5F4;
 }
 
@@ -340,23 +355,106 @@ line-height: 130px; */
 .big-1 {
     width: 850px;
     height: 46px;
+    position: relative;
 }
 
 input {
-    width: 700px;
+    width: 698px;
     height: 100%;
     font-size: 18px;
     color: #bebebe;
     padding-left: 10px;
+    border: 1px solid #00b38a;
 }
 
-button {
-    width: 140px;
+.big-1:hover .pull-down {
+    display: block;
+}
+
+
+/* .pull-down-hidden {
+    width: 0;
+    height: 0;
+    display: none;
+    /* overflow: hidden; 
+} */
+
+.pull-down {
+    width: 709px;
+    height: 297px;
+    position: absolute;
+    border: 1px solid #bebebe;
+    z-index: 2;
+    border-top: 0;
+    background-color: #ffffff;
+    display: flex;
+    display: none;
+    top：46px;
+    /* overflow: scroll; */
+}
+
+.pull-down-left {
+    /* display: inline-block; */
+    width: 650px;
     height: 100%;
+    border-right: 1px dashed #D5DADF;
+}
+
+.pull-1 {
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pull-1 span {
+    margin: 8px 16px;
+    color: #555;
+}
+
+.pull-1 .pull-2 {
+    color: #00B38A;
+    margin: 8px 0;
+}
+
+.pull-2 span {
+    color: #00b38a;
+}
+
+.pull-1:hover {
+    background-color: #00b38a;
+}
+
+.pull-1:hover span {
+    color: #ffffff;
+}
+
+
+/* .pull-1 span:hover {
+   
+} */
+
+.pull-down-right {
+    color: #777777;
+    /* display: inline-block; */
+    width: 60px;
+    height: 100%;
+}
+
+.pull-down-right span {
+    display: inline-block;
+    width: 60px;
+    line-height: 37px;
+    text-align: center;
+}
+
+.big-1 button {
+    width: 140px;
+    height: 48px;
     background-color: #00b38a;
     font-size: 14px;
-    border: none;
+    border: 1px solid #00b38a;
     color: #ffffff;
+    vertical-align: top;
 }
 
 
@@ -549,11 +647,10 @@ top: 10px; */
     box-shadow: 1px 1px 7px 1px #bebebe;
 }
 
-.samll {
+.samll img {
     position: absolute;
-    width: 20px;
-    font-size: 13px;
-    background-color: #00C295;
+    width: 40px;
+    height: 40px;
 }
 
 
@@ -635,6 +732,18 @@ top: 10px; */
 
 .module-1 img {
     border-radius: 10px;
+}
+
+.module-2 i {
+    width: 20px;
+    height: 18px;
+    display: inline-block;
+    background: url(https://www.lgstatic.com/lg-www-fed/common/widgets/footer_c/modules/img/sprite_9dd5c92.png) -83px -99px no-repeat;
+}
+
+.module-2 img {
+    width: 16px;
+    height: 16px;
 }
 
 .module-3 {
@@ -877,8 +986,11 @@ p.four-type {
     height: 40px;
     border: 1px solid #00b38a;
     margin: 0 100px 15px 0;
-    text-align: center;
-    /* line-height: 40px; */
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    line-height: 40px;
+    justify-content: center;
 }
 
 .guild span {
@@ -886,16 +998,55 @@ p.four-type {
     color: #00b38a;
 }
 
+.guild-icon {
+    background: url(https://www.lgstatic.com/lg-www-fed/common/widgets/footer_c/modules/img/sprite_9dd5c92.png) -150px -220px no-repeat;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+}
+
+.guild-icon-2 {
+    background: url(https://www.lgstatic.com/lg-www-fed/common/widgets/footer_c/modules/img/sprite_9dd5c92.png) -214px -52px no-repeat;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
 .guild:hover {
     background-color: #00b38a;
+}
+
+.guild:hover span {
     color: #ffffff;
+}
+
+.guild:hover .guild-icon-2 {
+    background: url(https://www.lgstatic.com/lg-www-fed/common/widgets/footer_c/modules/img/sprite_9dd5c92.png) -171px -52px no-repeat;
+}
+
+.guild:hover .guild-icon {
+    background: url(https://www.lgstatic.com/lg-www-fed/common/widgets/footer_c/modules/img/sprite_9dd5c92.png) -181px -220px no-repeat;
 }
 
 .wechat {
     width: 183px;
     height: 21.6px;
-    display: flex;
-    justify-content: space-between;
+    margin-top: 19px;
+}
+
+.wechat-icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: url(https://www.lgstatic.com/lg-www-fed/common/widgets/footer_c/modules/img/sprite_9dd5c92.png) -114px -184px no-repeat;
+}
+
+.wechat-icon-1 {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: url(https://www.lgstatic.com/lg-www-fed/common/widgets/footer_c/modules/img/sprite_9dd5c92.png) -214px -18px no-repeat;
 }
 
 .wechat span {
@@ -980,13 +1131,13 @@ span.wechat-1 {
 }
 
 .copyright-1 span {
-    color: #555555;
+    color: #999999;
     font-size: 14px;
     margin-right: 20px;
 }
 
 .copyright-1 span a {
-    color: #555555;
+    color: #999999;
     font-size: 14px;
     margin-right: 20px;
     line-height: 59px;
@@ -994,7 +1145,7 @@ span.wechat-1 {
 }
 
 .copyright-1 span a:hover {
-    color: #24282C;
+    color: #555555;
 }
 
 .reference {
@@ -1005,26 +1156,41 @@ span.wechat-1 {
     top: -16px;
 }
 
+
+/* .copyright .reference a {
+    display: flex;
+    align-items: center;
+} */
+
+.reference-icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: url(https://www.lgstatic.com/lg-www-fed/common/widgets/footer_c/modules/img/sprite_9dd5c92.png ) -150px -183px no-repeat;
+}
+
 .inform {
     width: 180px;
     height: 57px;
-    border: 1px solid #555555;
+    border: 1px solid #D5DADF;
     display: inline-block;
 }
 
 .inform-1 {
     display: inline-block;
-    width: 33px;
-    text-align: center;
+    width: 20px;
+    height: 24px;
     position: relative;
-    top: -14px;
+    left: 9px;
+    top: -9px;
+    background: url(https://www.lgstatic.com/lg-www-fed/common/widgets/footer_c/modules/img/sprite_9dd5c92.png) -132px -20px no-repeat;
 }
 
 .inform-2 {
     display: inline-block;
     width: 128px;
     height: 49px;
-    padding: 4px 0;
+    padding: 4px 13px;
 }
 
 .inform span {
@@ -1047,8 +1213,8 @@ span.wechat-1 {
     background-color: #00ffff;
 }
 
-
-/* .copyright-2 span {
-        color: #555555;
-        line-height: 59px;
-    } */
+.copyright-2 {
+    width: 198px;
+    height: 19px;
+    background: url(https://www.lgstatic.com/lg-www-fed/common/widgets/footer_c/modules/img/footer_lagou_icon_75f0ebc.png);
+}
