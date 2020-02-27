@@ -18,6 +18,9 @@ input {
 }
 
 
+/* .box-sizing {} */
+
+
 /* 第一部分整体 */
 
 .header {
@@ -27,7 +30,7 @@ input {
 }
 
 .nav {
-    width: 1282px;
+    width: 1200px;
     height: 100%;
     margin: 0 auto;
     text-align: center;
@@ -223,7 +226,7 @@ input {
 /* 内容大框 */
 
 .total {
-    width: 1298px;
+    width: 1200px;
     height: 120px;
     margin: 0 auto;
     display: flex;
@@ -235,23 +238,27 @@ input {
 .logo {
     width: 680px;
     height: 100%;
-    text-align: center;
+    /* text-align: center; */
+    display: flex;
 }
 
 .logo-1 {
     display: inline-block;
+    position: relative;
+    left: -20px;
 }
 
 .logo-2 {
     display: inline-block;
     position: relative;
-    bottom: 32px;
+    bottom: -29px;
 }
 
 .logo-2 h3 {
     font-size: 14px;
     color: #ffffff;
     margin-top: 4px;
+    font-weight: initial;
 }
 
 
@@ -510,6 +517,76 @@ input {
 }
 
 
+/* 侧拉菜单 */
+
+.side-pull {
+    width: 486px;
+    height: 303px;
+    z-index: 1;
+    background-color: #ffffff;
+    /* border: 1px solid #afafaf; */
+    position: absolute;
+    left: 500px;
+    display: none;
+    box-shadow: 0 0 4px 2px rgba(0, 0, 0, .09);
+}
+
+.side-pull-1 {
+    margin: 15px;
+}
+
+.side-pull-1 p {
+    color: #555555;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.side-pull-2 ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.side-pull-2 ul li {
+    margin-bottom: 5px;
+}
+
+
+/* .side-pull-2 ul li a:nth-child(4) {
+    color: #ff00ff;
+} */
+
+.side-pull-2 ul li a {
+    font-size: 14px;
+    color: #555;
+    padding-right: 18px;
+}
+
+.side-pull-2 .side-pull-3 a {
+    color: #00B38A;
+}
+
+.side-pull-2 ul li a:hover {
+    color: #00b38a;
+    text-decoration: underline;
+}
+
+.column:hover .side-pull {
+    display: block;
+}
+
+.column:hover {
+    box-shadow: 0 0 4px 2px rgba(0, 0, 0, .09);
+}
+
+
+/* .column:hover .column {
+    width: 321px;
+    height: 383px;
+    border: 1px solid #afafaf;
+    box-shadow: 1px 1px 1px 1px;
+}  */
+
+
 /* 第一部分 */
 
 .column-1 {
@@ -517,6 +594,7 @@ input {
     height: 383px;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 h2 {
