@@ -1,0 +1,1056 @@
+/* 导航栏 */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+input {
+    border: 0;
+}
+
+
+/* 固定火箭 */
+
+.rocket {
+    width: 28px;
+    height: 46px;
+    background: url(https://www.lgstatic.com/lg-www-fed/common/widgets/footer_c/modules/img/backtop-new_0e4bcbc.png) left no-repeat;
+    position: fixed;
+    top: 660px;
+    right: 88px;
+    /* background-color: #00b38a; */
+}
+
+.rocket:hover {
+    background: url(https://www.lgstatic.com/lg-www-fed/common/widgets/footer_c/modules/img/backtop-new_0e4bcbc.png) right no-repeat;
+}
+
+
+/* 第一部分整体 */
+
+.header {
+    width: 100%;
+    height: 40px;
+    background-color: #32373e;
+}
+
+.nav {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    /* background-color: azure; */
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+
+/* 左边部分logo */
+
+.left-icon {
+    width: 58px;
+    height: 40px;
+    /* display: inline-block; */
+    background: url(https://www.lgstatic.com/lg-www-fed/common/widgets/header_c/modules/topbar/img/sprite_361857f.png) no-repeat;
+    background: size;
+    background-size: 64px 128px;
+    margin-right: 33px;
+}
+
+
+/* 
+.left {
+    width: 236px;
+    height: 100%;
+    vertical-align: top;
+    /* display: inline-block; */
+
+
+/* background-color: #ff00ff; */
+
+
+}
+
+/* .left ul {
+    line-height: 40px;
+    text-align: center;
+}
+
+.left ul li {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.left ul li a {
+    line-height: 40px;
+}
+
+.left-1 a {
+    color: #00B38A;
+    font-size: 25px;
+    margin-right: 35px;
+}
+
+.left-2 {
+    color: #00B38A;
+    margin-right: 12px;
+}
+
+.left-3 a {
+    color: #afafaf;
+    font-size: 13px;
+}
+
+.left-3 a:hover {
+    color: #ffffff;
+}
+ */
+
+/* 中间部分 nav */
+.middle {
+    width: 390px;
+    height: 100%;
+    /* margin-left: 100px; */
+}
+.middle ul li {
+    display: inline-block;
+    padding: 0 20px;
+    line-height: 39px;
+}
+.middle ul li a {
+    color: #afafaf;
+    font-size: 14px;
+}
+
+/* .middle-1 {
+    width: 88px;
+    text-align: center;
+    /* height: 50px; 
+background-color: #24282C;
+
+}*/
+.middle ul li a:hover {
+    color: #ffffff;
+}
+.middle-2 {
+    position: relative;
+}
+.middle-2 span {
+    display: inline-block;
+    width: 29px;
+    height: 17px;
+    line-height: 17px;
+    background-color: #FF7452;
+    font-size: 12px;
+    color: #ffffff;
+    border-radius: 13px;
+    position: absolute;
+    left: 43px;
+    top: 3px
+}
+.middle .middle-3 {
+    background-color: #000000;
+}
+.middle .middle-3 a {
+    color: #ffffff;
+}
+
+/* 右边登录部分 */
+.right {
+    width: 535px;
+    height: 100%;
+    margin-left: 187px;
+}
+.right ul li {
+    display: inline-block;
+    margin-right: 12px;
+    line-height: 40px;
+}
+.right ul li a {
+    color: #afafaf;
+    font-size: 14px;
+}
+.right-1 {
+    margin-left: 32px;
+}
+.right-1 span {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: black;
+    text-align: center;
+    margin-right: 10px;
+    /* position: absolute; */
+}
+.right-1 img {
+    width: 18px;
+    height: 18px;
+    position: relative;
+    top: 3px;
+}
+.right-2 {
+    margin-left: 32px;
+}
+.right .right-2 a {
+    color: #00C295;
+}
+.right .right-2 a:hover {
+    color: #12DDAE;
+}
+.right-2 img {
+    width: 12px;
+    height: 18px;
+    position: relative;
+    top: 3px;
+    left: -10px;
+}
+.right-2 span {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: black;
+    text-align: center;
+    margin-right: 10px;
+}
+.right ul li a:hover {
+    color: #ffffff;
+}
+.content {
+    width: 1200px;
+}
+
+/* 第二部分 腾讯简介 */
+.intro {
+    width: 100%;
+    height: 225px;
+    background-color: #f2f5f4;
+}
+.intro-1 {
+    width: 1024px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.big-pic {
+    background-size: 116px 116px;
+    width: 116px;
+    height: 116px;
+    position: absolute;
+    right: -6px;
+    background-image: url(https://www.lgstatic.com/i/image3/M01/68/AD/Cgq2xl5PbAWAM7CgAACbuMQq11o956.png);
+}
+.intro-top {
+    width: 1024px;
+    height: 166px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    /* margin-top: 30px; */
+    
+    display: flex;
+}
+.tencent-logo {
+    border: 1px solid #eaeaea;
+    width: 165px;
+    height: 164px;
+}
+.tencent-right {
+    width: 859px;
+    height: 166px;
+}
+.outline {
+    width: 100%;
+    height: 81px;
+    display: inline-block;
+    margin: 25px 0 0 20px;
+}
+.outline span {
+    font-size: 24px;
+    color: #555555;
+}
+.outline i {
+    width: 14px;
+    height: 12px;
+    display: inline-block;
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/common/img/icons1_b3ea05c.png);
+    position: relative;
+    top: -5px;
+    left: 2px;
+}
+.outline .outline-1 {
+    display: inline-block;
+    width: 100px;
+    height: 31px;
+    background-color: #00b38a;
+    border-radius: 26px;
+    text-align: center;
+    margin: 0 0 10px 10px;
+    position: relative;
+    top: -5px;
+}
+.outline-1 span {
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 31px;
+}
+.outline .outline-1 i {
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/top-info/img/approve_ad3ed9a.png);
+    width: 16px;
+    height: 18px;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    margin-right: 2px;
+}
+.outline-2 {
+    padding: 2px;
+    color: #555555;
+    font-size: 12px;
+    position: absolute;
+    width: 274px;
+    height: 33px;
+    border: 1px solid #999;
+    background-color: #ffffff;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #999;
+    top: -43px;
+    right: -74px;
+    display: none;
+}
+.outline-1:hover .outline-2 {
+    display: block;
+}
+.outline-0 {
+    width: 860px;
+    height: 60px;
+    background-color: #fafafa;
+}
+.outline-0 ul li {
+    width: 102px;
+    height: 40px;
+    font-size: 18px;
+    color: #555555;
+    font-weight: 300;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    padding: 0 10px 0 10px;
+    top: 8px;
+    /* line-height: 40px; */
+    
+    border-right: 1px solid #ededed;
+}
+.outline-0 .outline-3 {
+    font-size: 14px;
+    color: #b7b7b7;
+    font-size: 12px;
+}
+.outline-4 i {
+    background-image: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/top-info/img/publisher_data_tip_af42c15.png);
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    position: relative;
+    /* background-size: 11px 11px; */
+}
+.outline-4 {
+    width: 11px;
+    height: 11px;
+    /* display: flex; */
+    
+    left: 76px;
+    top: -15px;
+    display: inline-block;
+}
+.outline-5 {
+    padding: 4px;
+    position: absolute;
+    border: 1px solid #999;
+    background-color: #ffffff;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #999;
+    font-size: 12px;
+    line-height: 25px;
+    top: 48px;
+    left: -17px;
+    display: none;
+    white-space: nowrap;
+}
+.outline-4:hover .outline-5 {
+    display: block;
+}
+.outline-6 {
+    width: 1px;
+    height: 44px;
+    border: 1px solid #fafafa;
+    background-color: #fafafa;
+    position: relative;
+    right: -632px;
+    top: -35px;
+    z-index: 1;
+}
+
+/* 公司主页选项 */
+.intro-bottom {
+    width: 1029px;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+}
+.intro-bottom-1 {
+    width: 800px;
+    height: 100%;
+    position: relative;
+}
+.intro-bottom ul li {
+    display: inline-block;
+    margin-right: 40px;
+    line-height: 60px;
+}
+.intro-bottom ul li a {
+    color: #ccc;
+    font-size: 18px;
+}
+.intro-bottom .intro-bottom-2 a {
+    padding-bottom: 13px;
+    border-bottom: 2px solid #F1ea8b;
+    color: #F1ea8b;
+    cursor: pointer;
+    /* text-decoration: underline; */
+}
+.intro-bottom-3 {
+    width: 38px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    right: 123px;
+    top: 12px;
+    background-image: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/tabs/img/news_tip_a426ee1.png);
+}
+
+/* 分享 */
+.share {
+    width: 156px;
+    height: 56px;
+    /* line-height: 56px; */
+    
+    display: flex;
+    align-items: flex-end;
+}
+.share span {
+    color: #999;
+    font-size: 14px;
+    line-height: 26px;
+    ;
+    margin-right: 3px;
+}
+.share-1 {
+    width: 115px;
+    height: 25px;
+    display: flex;
+    border: 1px solid #f2f5f4;
+    line-height: 25px;
+    background-color: #fafafa;
+    display: inline-block;
+    text-align: center;
+    margin-left: 6px;
+}
+.share-2 {
+    width: 29px;
+    height: 17px;
+    border-right: 1px solid #eaeaea;
+    position: relative;
+    top: 3px;
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/tabs/img/css_sprites_c518bff.png) -202px -19px no-repeat;
+    display: inline-block;
+}
+.share-3 {
+    width: 29px;
+    height: 17px;
+    border-right: 1px solid #eaeaea;
+    position: relative;
+    top: 3px;
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/tabs/img/css_sprites_c518bff.png) -203px -55px no-repeat;
+    display: inline-block;
+}
+.share-4 {
+    width: 29px;
+    height: 17px;
+    position: relative;
+    top: 3px;
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/tabs/img/css_sprites_c518bff.png) -279px -19px no-repeat;
+    display: inline-block;
+}
+.share-2:hover {
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/tabs/img/css_sprites_c518bff.png) -242px -19px no-repeat;
+}
+.share-3:hover {
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/tabs/img/css_sprites_c518bff.png) -245px -55px no-repeat;
+}
+.share-4:hover {
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/tabs/img/css_sprites_c518bff.png) -278px -55px no-repeat;
+}
+
+/* 第三大块内容 */
+.overall {
+    width: 100%;
+    height: 2897px;
+}
+.overall-1 {
+    width: 1024px;
+    height: 2897px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+}
+
+/* 左边 */
+.overall-left {
+    width: 745px;
+    height: 2897px;
+    margin-right: 10px;
+}
+.company-products {
+    width: 710px;
+    height: 515px;
+}
+h4 {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+}
+h4::after {
+    display: inline-block;
+    content: '';
+    width: 625px;
+    height: 1px;
+    background-color: #e8e8e8;
+    position: relative;
+    top: -6px;
+    left: 18px;
+}
+.company-products-1 {
+    width: 710px;
+    height: 180px;
+    padding-bottom: 30px;
+    border-bottom: 1px dashed #e8e8e8;
+    /* display: inline-block; */
+    
+    display: flex;
+    margin-top: 30px;
+}
+.company-products-4 a {
+    color: #555;
+    font-size: 18px;
+}
+.company-products-4 a:hover {
+    color: #00b38a;
+}
+.company-products-1 p a::after {
+    position: relative;
+    left: 9px;
+    display: inline-block;
+    content: '';
+    width: 14px;
+    height: 12px;
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/common/img/icons1_b3ea05c.png);
+}
+.company-products-2 {
+    margin-left: 20px;
+    position: relative;
+}
+
+/* .company-products-2 i {
+    position: relative;
+    left: 63px;
+    bottom: 164px;
+    width: 14px;
+    height: 12px;
+    display: inline-block;
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/common/img/icons1_b3ea05c.png);
+} */
+.company-products-2 p {
+    color: #555555;
+    font-size: 14px;
+}
+.company-products-3 {
+    border: 1px solid #e8e8e8;
+    color: #777;
+    font-size: 12px;
+    text-align: center;
+    display: inline-block;
+    padding: 0 10px;
+    border-radius: 10px;
+    margin: 10px 0 12px 0;
+}
+
+/* 公司介绍 */
+.company-introduction {
+    width: 710px;
+    height: 539px;
+    margin-top: 30px;
+}
+.company-introduction span {
+    color: #555555;
+    font-size: 14px;
+    margin-top: 30px;
+    display: inline-block;
+}
+.company-introduction-2 {
+    width: 710px;
+    height: 340px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+}
+.introduction-left {
+    cursor: pointer;
+    width: 34px;
+    height: 64px;
+    display: inline-block;
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/common/img/icons1_b3ea05c.png) 0px -136px no-repeat;
+}
+.introduction-right {
+    cursor: pointer;
+    width: 34px;
+    height: 64px;
+    display: inline-block;
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/common/img/icons1_b3ea05c.png) -40px -136px no-repeat;
+}
+.introduction-left:hover {
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/common/img/icons2_3539690.png)-47px 0px no-repeat;
+}
+.introduction-right:hover {
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/common/img/icons2_3539690.png)2px 0px no-repeat;
+}
+.company-introduction-3 {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+}
+.company-introduction-4 {
+    cursor: pointer;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #00b38a;
+}
+.company-introduction-5 {
+    cursor: pointer;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #555;
+    margin-left: 10px;
+}
+.company-introduction-5:hover {
+    background-color: #00b38a;
+}
+
+/* 发展历程 */
+.history {
+    width: 710px;
+    height: 292px;
+    margin-bottom: 30px;
+}
+.history-1 {
+    width: 100%;
+    height: 263px;
+    display: inline-block;
+    position: relative;
+}
+.histroy-2 {
+    position: relative;
+    top: 51px;
+    width: 53px;
+    height: 64px;
+    display: inline-block;
+    margin-bottom: 10px;
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/history/img/his_icons_bb9597a.png) -5px -339px no-repeat;
+}
+.history-1 ul li a {
+    cursor: pointer;
+    color: #555;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.history-1 ul li i {
+    z-index: 100;
+    cursor: pointer;
+    position: relative;
+    left: 6px;
+    display: inline-block;
+    width: 14px;
+    height: 12px;
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/common/img/icons1_b3ea05c.png);
+}
+.history-3 {
+    width: 1px;
+    height: 26px;
+    background-color: #e8e8e8;
+    display: inline-block;
+    position: absolute;
+    left: 26px;
+    top: 103px;
+}
+.history-4 {
+    width: 1px;
+    height: 26px;
+    background-color: #e8e8e8;
+    display: inline-block;
+    position: absolute;
+    left: 26px;
+    top: 182px;
+}
+.history-1 ul li a:hover {
+    color: #00b38a;
+}
+
+/* 面试评价 */
+
+/* 分割线 */
+.cut-off {
+    width: 5px;
+    height: 1200px;
+    background-color: #f5f5f5;
+    display: inline-block;
+    box-shadow: 8px 0 4px -4px #f5f5f5;
+}
+
+/* 第三部分右边 */
+.overall-right {
+    width: 245px;
+    height: 1850px;
+    margin-left: 30px;
+}
+.overall-right-1 {
+    width: 245px;
+    height: 1850px;
+}
+
+/* 登录 */
+.loginbar {
+    width: 245px;
+    height: 330px;
+    background: url(https://www.lgstatic.com/lg-www-fed/common/widgets/register-right-modal/img/background_3d34739.png);
+    /* margin: 15px; */
+    
+    text-align: center;
+}
+.loginbar-1 p {
+    color: #ffffff;
+    font-size: 18px;
+    padding: 25px 0 15px 0;
+}
+.loginbar-1 {
+    position: relative;
+}
+.loginbar-1 input {
+    width: 211px;
+    height: 38px;
+    border: 1px solid #f2f5f4;
+    border-radius: 3px;
+    margin: 12px 0;
+    position: relative;
+    color: #999;
+    padding-left: 8px;
+    font-size: 15px;
+}
+.loginbar-1 i {
+    position: absolute;
+    width: 10px;
+    display: inline-block;
+    top: 94px;
+    left: 58px;
+    height: 7px;
+    background: url(https://www.lgstatic.com/lg-www-fed/common/widgets/recommend/img/arrow_down_c415674.png) no-repeat;
+}
+
+/* .loginbar-1 em {
+    height: 3px;
+    width: 1px;
+     color: #d5dadf;  
+    border: 0.5px solid #d5dadf;
+    position: relative;
+    left: 41px;
+    top: -164px;
+
+} */
+.loginbar-2 {
+    width: 59px;
+    height: 38px;
+    border: 1px solid #fff;
+    line-height: 38px;
+    position: relative;
+    color: #00b38a;
+    top: -52px;
+    left: 167px;
+    font-size: 14px;
+}
+.loginbar-2::before {
+    content: '';
+    height: 12px;
+    width: 1px;
+    display: inline-block;
+    background-color: #d5dadf;
+    position: relative;
+    left: -7px;
+}
+.sign-in {
+    width: 211px;
+    height: 38px;
+    border: 1px solid #f2f5f4;
+    border-radius: 3px;
+    background-color: #eafffa;
+    line-height: 38px;
+    color: #00b38a;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    top: -23px;
+    left: 15px;
+}
+.loginbar-3 {
+    width: 213px;
+    margin: 0 auto;
+}
+.loginbar .loginbar-3 span {
+    font-size: 12px;
+    color: #ccf0e7;
+    text-align: left;
+}
+.loginbar .loginbar-3 span a {
+    font-size: 12px;
+    color: #ccf0e7;
+    text-align: left;
+}
+.loginbar-3 span a:hover {
+    color: #fff;
+}
+
+/* 公司基本信息 */
+.basic {
+    width: 245px;
+    height: 231px;
+}
+h5 {
+    font-size: 18px;
+    color: #000000;
+    font-weight: 400;
+    margin: 30px 0 30px 0;
+}
+h5::after {
+    display: inline-block;
+    content: '';
+    background-color: #e8e8e8;
+    position: relative;
+    width: 119px;
+    height: 1px;
+    top: -6px;
+    left: 16px;
+}
+.basic ul li {
+    font-size: 14px;
+    color: #555555;
+    margin: 20px 0 0 20px;
+}
+.basic-1 {
+    width: 15px;
+    height: 15px;
+    margin-right: 20px;
+    display: inline-block;
+    vertical-align: initial;
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/basic-info/img/type_icon_7d5884a.png?__sprite);
+}
+.basic-2 {
+    width: 15px;
+    height: 15px;
+    margin-right: 20px;
+    display: inline-block;
+    vertical-align: initial;
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/basic-info/img/process_icon_33c5a37.png?__sprite);
+}
+.basic-3 {
+    width: 15px;
+    height: 15px;
+    margin-right: 20px;
+    display: inline-block;
+    vertical-align: initial;
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/basic-info/img/number_icon_13c57a0.png?__sprite);
+}
+.basic-4 {
+    width: 15px;
+    height: 16px;
+    margin-right: 20px;
+    display: inline-block;
+    vertical-align: initial;
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/basic-info/img/address_icon_5818d69.png?__sprite) no-repeat;
+}
+
+/* 管理团队 */
+.group {
+    width: 245px;
+    height: 405.2px;
+    margin-bottom: 48px;
+}
+.group span {
+    display: inline-block;
+}
+.group-1 {
+    width: 245px;
+    height: 405.2px;
+    padding-top: 30px;
+    position: relative;
+    top: -11px;
+    border-top: 1px solid #e8e8e8;
+    display: inline-block;
+    text-align: center;
+}
+.group img {
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+}
+.group a {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    cursor: pointer;
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/managers/img/weibo_link_0b705cd.png);
+}
+span.group-3 {
+    color: #333;
+    font-size: 18px;
+    margin: 20px 0 10px 0;
+}
+p.group-4 {
+    color: #999999;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.group p.group-5 {
+    color: #555;
+    font-size: 13px;
+    text-align: start;
+    line-height: 20px;
+    margin-bottom: 70px;
+}
+.group-6 {
+    color: #00b38a;
+    font-size: 14px;
+    text-align: start;
+}
+.group-6:hover {
+    text-decoration: underline;
+}
+
+/* 公司标签 */
+.label {
+    width: 245px;
+    height: 229px;
+    margin-top: 30px;
+}
+.label-0 {
+    font-size: 18px;
+    width: 95px;
+    color: #000;
+    background-color: #fff;
+    margin-right: 10px;
+    position: relative;
+    z-index: 10;
+}
+.label-1 {
+    width: 245px;
+    height: 165px;
+    margin-top: 30px;
+    position: relative;
+    border-top: 1px solid #e8e8e8;
+    top: -41px;
+    padding-top: 35px;
+}
+.label-2 {
+    padding: 4px 8px;
+    color: #777777;
+    font-size: 13px;
+    display: inline-block;
+    border-radius: 30px;
+    border: 1px solid #e8e8e8;
+    margin: 0 5px 10px 0;
+}
+
+/* 工商信息 */
+.business {
+    width: 245px;
+    height: 317.6px;
+}
+.business-0 {
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    z-index: 10;
+    background-color: #fff;
+    padding-right: 20px;
+    display: inline-block;
+}
+.business-1 {
+    width: 245px;
+    height: 317.6px;
+    position: relative;
+    top: -11px;
+    border-top: 1px solid #e8e8e8;
+    padding-top: 35px;
+}
+.business-1 ul li {
+    margin-bottom: 20px;
+}
+.business-2 {
+    display: inline-block;
+    margin-right: 30px;
+}
+.business-1 ul li span {
+    color: #333333;
+    font-size: 14px;
+}
+.business-1 ul li p {
+    color: #666666;
+    font-size: 14px;
+}
+.business-1 img {
+    position: relative;
+    top: -17px;
+    margin-right: 5px;
+}
+
+/* 天眼查 */
+.eye {
+    width: 245px;
+    height: 60px;
+    margin-top: 20px;
+    display: flex;
+}
+.eye img {
+    display: inline-block;
+}
+.eye span {
+    color: #555;
+    font-size: 14px;
+    text-decoration: underline;
+}
+.eye span:hover {
+    color: #00b38a;
+}
