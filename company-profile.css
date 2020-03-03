@@ -668,10 +668,10 @@ h4::after {
     margin-bottom: 30px;
 }
 .history-1 {
-    width: 100%;
+    width: 450px;
     height: 263px;
-    display: inline-block;
     position: relative;
+    margin: 0 auto;
 }
 .histroy-2 {
     position: relative;
@@ -721,6 +721,265 @@ h4::after {
 }
 
 /* 面试评价 */
+.appraise {
+    width: 710px;
+    height: 1290px;
+}
+.appraise-0 {
+    display: inline-block;
+    padding-right: 20px;
+    color: #000;
+    font-size: 18px;
+    background-color: #fff;
+    z-index: 10;
+    position: relative;
+}
+.appraise-1 {
+    width: 710px;
+    height: 1179px;
+    border-top: 1px solid #e8e8e8;
+    position: relative;
+    top: -11px;
+    padding-top: 30px;
+}
+.appraise-2 {
+    width: 710px;
+    height: 100px;
+    margin-top: 8px;
+    border-bottom: 1px dashed #e8e8e8;
+}
+
+/* .apprasie-3 span:first-child {
+    color: #333;
+    font-size: 14px;
+} */
+.appraise-3 {
+    display: flex;
+    line-height: 32px;
+}
+.appraise-4 {
+    width: 106px;
+    height: 23px;
+    position: relative;
+    /* margin-left: 10px; */
+    
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/common/img/star_164398f.png) -1px -48px no-repeat;
+}
+.appraise-4 i {
+    display: inline-block;
+    width: 125px;
+    height: 23px;
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/common/img/star_164398f.png)0 -71px;
+}
+.appraise-5 {
+    color: #fd5f39;
+    font-size: 24px;
+    margin-right: 10px;
+    padding-left: 34px;
+    position: relative;
+    top: -2px;
+}
+.appraise-6 {
+    color: #333;
+    font-size: 14px;
+    margin-right: 12px;
+}
+.appraise-3 span:last-child {
+    color: #999999;
+    font-size: 14px;
+}
+
+/* 描述相符 */
+.mark {
+    width: 710px;
+    height: 20px;
+    margin-top: 20px;
+}
+.mark-0 {
+    width: 710px;
+    height: 20px;
+    display: flex;
+}
+.mark-1 {
+    width: 336px;
+    height: 23px;
+    display: flex;
+    line-height: 23px;
+    /* display: inline-block; */
+    /* line-height: 40px; */
+}
+.mark-1 span:first-child {
+    color: #999999;
+    font-size: 14px;
+}
+.mark-2 {
+    width: 125px;
+    height: 23px;
+    display: inline-block;
+    margin-left: 10px;
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/common/img/star_164398f.png) -1px -48px no-repeat;
+}
+.mark-1 span:last-child {
+    margin-left: 12px;
+    color: #fd5f39;
+    font-size: 14px;
+}
+.mark-1::after {
+    content: '';
+    width: 1px;
+    height: 12px;
+    margin: 0 20px;
+    background-color: #ededed;
+    position: relative;
+    top: 6px;
+}
+
+/* 公司环境 */
+.mark-3 {
+    width: 336px;
+    height: 23px;
+    display: flex;
+    line-height: 23px;
+}
+.mark-3 span:first-child {
+    color: #999999;
+    font-size: 14px;
+}
+.mark-3 span:last-child {
+    margin-left: 12px;
+    color: #fd5f39;
+    font-size: 14px;
+}
+
+/* 王生的评价 */
+.wang {
+    width: 710px;
+    height: 160px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #e8e8e8;
+    margin-top: 30px;
+}
+.wang-right {
+    width: 644px;
+    height: 119px;
+    margin-left: 15px;
+}
+.wang-0 {
+    width: 644px;
+    /* height: 150px; */
+    
+    display: inline-block;
+    display: flex;
+}
+.wang-1 {
+    width: 644px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wang-1 ul li {
+    display: inline-block;
+}
+.wang-1 ul li span {
+    color: #555;
+    font-size: 14px;
+    /* margin-right: 30px; */
+}
+.wang-2 {
+    color: #999;
+    font-size: 14px;
+    margin-left: 40px;
+}
+.wang-3 {
+    width: 109px;
+    height: 20px;
+    position: relative;
+    top: 4px;
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/common/img/star_s_a5b6ed7.png) 0 20px;
+}
+.wang-3 i {
+    width: 89px;
+    height: 20px;
+    display: inline-block;
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/common/img/star_s_a5b6ed7.png) 0 40px;
+}
+.wang-1 ul li a {
+    color: #555555;
+    font-size: 14px;
+    /* margin-right: 94px; */
+    
+    display: inline-block;
+    width: 120px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.wang ul li a:hover {
+    color: #00b38a;
+}
+.wang-1 ul li:last-child {
+    color: #999;
+    font-size: 12px;
+    display: inline-block;
+    text-align: end;
+}
+
+/* 面试态度标签 */
+.wang-right-middle {
+    width: 91px;
+    padding: 0 5px;
+    text-align: center;
+    font-size: 12px;
+    color: #555;
+    border-radius: 20px;
+    border: 1px solid #e8e8e8;
+    margin: 10px 5px 20px 0;
+    display: inline-block;
+}
+
+/* 面试过程 */
+.course {
+    width: 644px;
+    height: 60px;
+}
+.course-1 {
+    color: #999;
+    font-size: 14px;
+}
+.course-2 {
+    color: #555;
+    font-size: 14px;
+}
+.course p {
+    color: #00b38a;
+    font-weight: 350;
+    font-size: 14px;
+}
+
+/* 查看更多 */
+.more-1 {
+    width: 60px;
+    border: 1px solid #00b38a;
+    color: #00b38a;
+    font-size: 14px;
+    padding: 6px 15px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.more-1:hover {
+    background-color: #00b38a;
+    color: #fff;
+}
+
+/* 公司位置 */
+.location {
+    width: 710px;
+    height: 371px;
+}
+.location img {
+    margin-top: 20px;
+}
 
 /* 分割线 */
 .cut-off {
@@ -1040,11 +1299,17 @@ p.group-4 {
 .eye {
     width: 245px;
     height: 60px;
-    margin-top: 20px;
-    display: flex;
+    margin-top: 10px;
+    /* display: flex; */
+    
+    position: relative;
+    left: -5px;
 }
-.eye img {
+.business .eye img {
     display: inline-block;
+    margin-right: 10px;
+    position: static;
+    text-align: start;
 }
 .eye span {
     color: #555;
@@ -1053,4 +1318,52 @@ p.group-4 {
 }
 .eye span:hover {
     color: #00b38a;
+}
+
+/* 时间轴 */
+.the-time {
+    width: 245px;
+    height: 160px;
+    margin-top: 30px;
+}
+.the-time-1 {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #ededed;
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    top: -2px;
+    z-index: 10;
+}
+.the-time ul li {
+    color: #333;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.the-time ul li:last-child {
+    color: #00b38a;
+}
+.the-time-2 {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: 3px solid #00b38a;
+    /* background-color: #ededed; */
+    
+    margin-right: 4px;
+    display: inline-block;
+    position: relative;
+    left: -2px;
+    top: 1px;
+}
+.the-time-3 {
+    width: 2px;
+    height: 151px;
+    background-color: #ededed;
+    display: inline-block;
+    position: relative;
+    top: -185px;
+    left: 2px;
 }
