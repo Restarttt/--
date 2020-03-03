@@ -473,7 +473,7 @@ background-color: #24282C;
     border-right: 1px solid #eaeaea;
     position: relative;
     top: 3px;
-    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/tabs/img/css_sprites_c518bff.png) -202px -19px no-repeat;
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/tabs/img/css_sprites_c518bff.png) -203px -19px no-repeat;
     display: inline-block;
 }
 .share-3 {
@@ -482,7 +482,7 @@ background-color: #24282C;
     border-right: 1px solid #eaeaea;
     position: relative;
     top: 3px;
-    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/tabs/img/css_sprites_c518bff.png) -203px -55px no-repeat;
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/tabs/img/css_sprites_c518bff.png) -206px -55px no-repeat;
     display: inline-block;
 }
 .share-4 {
@@ -490,7 +490,7 @@ background-color: #24282C;
     height: 17px;
     position: relative;
     top: 3px;
-    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/tabs/img/css_sprites_c518bff.png) -279px -19px no-repeat;
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/tabs/img/css_sprites_c518bff.png) -278px -19px no-repeat;
     display: inline-block;
 }
 .share-2:hover {
@@ -506,11 +506,12 @@ background-color: #24282C;
 /* 第三大块内容 */
 .overall {
     width: 100%;
-    height: 2897px;
+    height: 3145px;
+    margin-bottom: 100px;
 }
 .overall-1 {
     width: 1024px;
-    height: 2897px;
+    height: 3145pxpx;
     margin: 0 auto;
     margin-top: 30px;
     display: flex;
@@ -519,7 +520,7 @@ background-color: #24282C;
 /* 左边 */
 .overall-left {
     width: 745px;
-    height: 2897px;
+    height: 3145pxpx;
     margin-right: 10px;
 }
 .company-products {
@@ -799,6 +800,7 @@ h4::after {
     width: 710px;
     height: 20px;
     display: flex;
+    justify-content: space-evenly;
 }
 .mark-1 {
     width: 336px;
@@ -813,22 +815,34 @@ h4::after {
     font-size: 14px;
 }
 .mark-2 {
-    width: 125px;
-    height: 23px;
+    width: 109px;
+    height: 20px;
     display: inline-block;
-    margin-left: 10px;
-    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/common/img/star_164398f.png) -1px -48px no-repeat;
+    /* margin-left: 10px; */
+    
+    position: relative;
+    left: 10px;
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/common/img/star_s_a5b6ed7.png) 0px -60px no-repeat;
+}
+.mark-2 i {
+    width: 100px;
+    height: 20px;
+    display: inline-block;
+    /* margin-left: 10px; */
+    
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/common/img/star_s_a5b6ed7.png) 0px -20px no-repeat;
 }
 .mark-1 span:last-child {
     margin-left: 12px;
     color: #fd5f39;
     font-size: 14px;
+    margin-right: 10px;
 }
 .mark-1::after {
     content: '';
     width: 1px;
     height: 12px;
-    margin: 0 20px;
+    margin: 0 8px;
     background-color: #ededed;
     position: relative;
     top: 6px;
@@ -854,14 +868,12 @@ h4::after {
 /* 王生的评价 */
 .wang {
     width: 710px;
-    height: 160px;
     padding-bottom: 20px;
     border-bottom: 1px dashed #e8e8e8;
     margin-top: 30px;
 }
 .wang-right {
     width: 644px;
-    height: 119px;
     margin-left: 15px;
 }
 .wang-0 {
@@ -874,6 +886,9 @@ h4::after {
 .wang-1 {
     width: 644px;
     height: 24px;
+}
+.wang ul {
+    width: 644px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -895,11 +910,105 @@ h4::after {
     width: 109px;
     height: 20px;
     position: relative;
-    top: 4px;
+    top: -2px;
     background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/common/img/star_s_a5b6ed7.png) 0 20px;
 }
 .wang-3 i {
     width: 89px;
+    height: 20px;
+    display: inline-block;
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/common/img/star_s_a5b6ed7.png) 0 40px;
+}
+.suspension {
+    position: absolute;
+    width: 262px;
+    height: 133px;
+    border: 1px solid #e8e8e8;
+    z-index: 10;
+    background-color: #fff;
+    top: 33px;
+    left: -27px;
+    border-radius: 5px;
+    display: none;
+}
+.suspension-1 span:first-child {
+    color: #999999;
+    font-size: 14px;
+}
+.wang-right .suspension-2 {
+    display: inline-block;
+    width: 109px;
+    height: 20px;
+    margin: 10px 10px;
+    position: relative;
+    top: 3px;
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/common/img/star_s_a5b6ed7.png) 0px -60px no-repeat;
+}
+.wang-right .suspension-2 i {
+    display: inline-block;
+    width: 90px;
+    height: 20px;
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/common/img/star_s_a5b6ed7.png) 0px -40px no-repeat;
+}
+.wang-right .suspension-3 {
+    display: inline-block;
+    width: 109px;
+    height: 20px;
+    margin: 10px 10px;
+    position: relative;
+    top: -2px;
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/common/img/star_s_a5b6ed7.png) 0px -60px no-repeat;
+}
+.wang-right .suspension-3 i {
+    display: inline-block;
+    width: 69px;
+    height: 20px;
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/common/img/star_s_a5b6ed7.png) 0px -40px no-repeat;
+}
+.wang-right .suspension-4 {
+    display: inline-block;
+    width: 109px;
+    height: 20px;
+    margin: 10px 10px;
+    position: relative;
+    top: 3px;
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/common/img/star_s_a5b6ed7.png) 0px -60px no-repeat;
+}
+.wang-right .suspension-4 i {
+    display: inline-block;
+    width: 109px;
+    height: 20px;
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/common/img/star_s_a5b6ed7.png) 0px -40px no-repeat;
+}
+.suspension-1 span:last-child {
+    color: #fd5f39;
+    font-size: 14px;
+}
+.wang-3:hover .suspension {
+    display: block;
+}
+.wang-4 {
+    width: 109px;
+    height: 20px;
+    position: relative;
+    top: -2px;
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/common/img/star_s_a5b6ed7.png) 0 20px;
+}
+.wang-4 i {
+    width: 24px;
+    height: 20px;
+    display: inline-block;
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/common/img/star_s_a5b6ed7.png) 0 80px;
+}
+.wang-5 {
+    width: 109px;
+    height: 20px;
+    position: relative;
+    top: -2px;
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/common/img/star_s_a5b6ed7.png) 0 20px;
+}
+.wang-5 i {
+    width: 109px;
     height: 20px;
     display: inline-block;
     background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/common/img/star_s_a5b6ed7.png) 0 40px;
@@ -909,6 +1018,7 @@ h4::after {
     font-size: 14px;
     /* margin-right: 94px; */
     
+    overflow: hidden;
     display: inline-block;
     width: 120px;
     white-space: nowrap;
@@ -940,7 +1050,6 @@ h4::after {
 /* 面试过程 */
 .course {
     width: 644px;
-    height: 60px;
 }
 .course-1 {
     color: #999;
@@ -975,16 +1084,50 @@ h4::after {
 /* 公司位置 */
 .location {
     width: 710px;
-    height: 371px;
+    height: 448px;
 }
 .location img {
     margin-top: 20px;
 }
 
+/* 推荐公司 */
+.describe-8 {
+    margin-bottom: 30px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.describe-8 span {
+    color: #bebebe;
+    margin-right: 10px;
+}
+.describe-8 ul li {
+    display: inline-block;
+    margin: 0 16px;
+}
+.describe-8 ul li a {
+    color: #999999;
+    font-size: 14px;
+    text-decoration: underline;
+}
+.describe-8 ul li:last-child {
+    color: #bebebe;
+    font-size: 14px;
+    margin-left: 37px;
+    cursor: pointer;
+}
+.describe-8 i {
+    width: 10px;
+    display: inline-block;
+    line-height: 10px;
+    height: 7px;
+    background: url(https://www.lgstatic.com/lg-www-fed/common/widgets/recommend/img/arrow_down_c415674.png) no-repeat;
+}
+
 /* 分割线 */
 .cut-off {
     width: 5px;
-    height: 1200px;
+    height: 3168px;
     background-color: #f5f5f5;
     display: inline-block;
     box-shadow: 8px 0 4px -4px #f5f5f5;
@@ -1366,4 +1509,270 @@ p.group-4 {
     position: relative;
     top: -185px;
     left: 2px;
+}
+
+/* 最后 */
+
+/* 页尾 */
+.footer {
+    width: 100%;
+    height: 232px;
+    margin: 0 auto;
+    /* background-color: #FF7452; */
+    
+    padding-top: 50px;
+    border-top: 1px solid #ebebeb;
+}
+.footer-1 {
+    width: 100%;
+    height: 239px;
+    /* background-color: #FF7452; */
+}
+.link {
+    width: 100%;
+    height: 120px;
+    margin-top: 26px;
+    display: inline-block;
+    border-bottom: 1px solid rgb(143, 146, 145);
+    text-align: center;
+    position: relative;
+    left: -38px;
+}
+.link span a {
+    color: #555555;
+    padding: 15px 18px 10px 0;
+    font-size: 14px;
+}
+.link span a:hover {
+    color: #00B38A;
+    text-decoration: underline;
+}
+.link-1 {
+    color: #bebebe;
+    position: relative;
+    right: -77px;
+}
+
+/* 拉钩网相关服务 */
+.service {
+    width: 100%;
+    height: 234px;
+    margin: 0 auto;
+    /* background-color: #FF7452; */
+}
+.service-1 {
+    width: 1200px;
+    height: 234px;
+    margin: 0 auto;
+    display: flex;
+}
+.service-left {
+    width: 182px;
+    height: 168px;
+    border-right: 1px solid #E8E8E8;
+    padding-right: 130px;
+}
+.guild {
+    width: 180px;
+    height: 40px;
+    border: 1px solid #00b38a;
+    margin: 0 100px 15px 0;
+    /* text-align: center; */
+    
+    display: flex;
+    align-items: center;
+    line-height: 40px;
+    justify-content: center;
+}
+.guild span {
+    line-height: 40px;
+    color: #00b38a;
+    font-size: 14px;
+}
+.guild-icon {
+    background: url(https://www.lgstatic.com/lg-www-fed/common/widgets/footer_c/modules/img/sprite_9dd5c92.png) -150px -220px no-repeat;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+}
+.guild-icon-2 {
+    background: url(https://www.lgstatic.com/lg-www-fed/common/widgets/footer_c/modules/img/sprite_9dd5c92.png) -214px -52px no-repeat;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.guild:hover {
+    background-color: #00b38a;
+}
+.guild:hover span {
+    color: #ffffff;
+}
+.guild:hover .guild-icon-2 {
+    background: url(https://www.lgstatic.com/lg-www-fed/common/widgets/footer_c/modules/img/sprite_9dd5c92.png) -171px -52px no-repeat;
+}
+.guild:hover .guild-icon {
+    background: url(https://www.lgstatic.com/lg-www-fed/common/widgets/footer_c/modules/img/sprite_9dd5c92.png) -181px -220px no-repeat;
+}
+.wechat {
+    width: 183px;
+    height: 21.6px;
+    margin-top: 19px;
+}
+.wechat-icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: url(https://www.lgstatic.com/lg-www-fed/common/widgets/footer_c/modules/img/sprite_9dd5c92.png) -114px -184px no-repeat;
+}
+.wechat-icon-1 {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: url(https://www.lgstatic.com/lg-www-fed/common/widgets/footer_c/modules/img/sprite_9dd5c92.png) -214px -18px no-repeat;
+}
+.wechat span {
+    /* display: inline-block; */
+    
+    padding: 15px 0 0 0;
+    font-size: 14px;
+    color: #555555;
+}
+.wechat span:hover {
+    color: #00B38A;
+}
+span.wechat-1 {
+    padding-right: 10px;
+}
+
+/* 右边用户服务 */
+.service-right {
+    width: 757px;
+    height: 168px;
+    /* margin: 0 0 0 123px; */
+    /* display: inline-block; */
+    /* background-color: #00b38a; */
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+.company {
+    width: 90px;
+    height: 168px;
+}
+.company-1 {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    color: #555;
+    margin-bottom: 20px;
+}
+.company span {
+    display: inline-block;
+    padding: 4px 0;
+}
+.company span a {
+    color: #555555;
+    font-size: 14px;
+    white-space: nowrap;
+}
+.company span a:hover {
+    color: #00B38A;
+}
+
+/* 版权 */
+.copyright {
+    width: 100%;
+    height: 100px;
+    background-color: #F0F0F0;
+}
+.copyright-0 {
+    width: 1200px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.copyright-1 {
+    display: inline-block;
+    width: 900px;
+    height: 59px;
+    /* text-align: center; */
+}
+.copyright-1 span {
+    color: #999999;
+    font-size: 14px;
+    margin-right: 20px;
+}
+.copyright-1 span a {
+    color: #999999;
+    font-size: 14px;
+    margin-right: 20px;
+    line-height: 59px;
+    display: inline-block;
+}
+.copyright-1 span a:hover {
+    color: #555555;
+}
+.reference {
+    display: inline-block;
+    height: 10px;
+    /* line-height: 59px; */
+    
+    position: relative;
+    top: -16px;
+}
+
+/* .copyright .reference a {
+    display: flex;
+    align-items: center;
+} */
+.reference-icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: url(https://www.lgstatic.com/lg-www-fed/common/widgets/footer_c/modules/img/sprite_9dd5c92.png ) -150px -183px no-repeat;
+}
+.inform {
+    width: 180px;
+    height: 57px;
+    border: 1px solid #D5DADF;
+    display: inline-block;
+}
+.inform-1 {
+    display: inline-block;
+    width: 20px;
+    height: 24px;
+    position: relative;
+    left: 9px;
+    top: -9px;
+    background: url(https://www.lgstatic.com/lg-www-fed/common/widgets/footer_c/modules/img/sprite_9dd5c92.png) -132px -20px no-repeat;
+}
+.inform-2 {
+    display: inline-block;
+    width: 128px;
+    height: 49px;
+    padding: 4px 13px;
+}
+.inform span {
+    line-height: 59px;
+    display: inline-block;
+}
+.inform p {
+    color: #999999;
+    font-size: 13px;
+}
+
+/* 右边logo */
+.copyright-2 {
+    width: 300px;
+    height: 59px;
+    margin: 0 auto;
+    background-color: #00ffff;
+}
+.copyright-2 {
+    width: 198px;
+    height: 19px;
+    background: url(https://www.lgstatic.com/lg-www-fed/common/widgets/footer_c/modules/img/footer_lagou_icon_75f0ebc.png);
 }
