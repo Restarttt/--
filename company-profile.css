@@ -447,7 +447,8 @@ background-color: #24282C;
     /* line-height: 56px; */
     
     display: flex;
-    align-items: flex-end;
+    margin-top: 23px;
+    /* align-items: flex-end;*/
 }
 .share span {
     color: #999;
@@ -832,6 +833,145 @@ h4::after {
     
     background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/common/img/star_s_a5b6ed7.png) 0px -20px no-repeat;
 }
+
+/* 鼠标移动上的效果 */
+.mark-up {
+    position: absolute;
+    border: 1px solid #e8e8e8;
+    background-color: #fff;
+    z-index: 2;
+    width: 284px;
+    height: 200px;
+    z-index: 2;
+    top: 33px;
+    left: -4px;
+    display: none;
+}
+.mark-up ul {
+    width: 260px;
+    padding: 10px;
+}
+.mark-up ul li {
+    margin: 11px 0;
+}
+.mark .mark-up ul li span {
+    color: #333;
+}
+.mark-up-1 {
+    display: flex;
+    align-items: center;
+}
+.mark-up-1 i {
+    width: 109px;
+    height: 22px;
+    margin-right: 10px;
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/common/img/star_s_a5b6ed7.png) 0 40px;
+}
+.mark-up-11 {
+    width: 61px;
+    height: 10px;
+    background-color: #00b38a;
+    border-radius: 20px;
+}
+.mark-up-2 {
+    display: flex;
+    align-items: center;
+}
+.mark-up-222 {
+    width: 109px;
+    height: 20px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/common/img/star_s_a5b6ed7.png) 0 20px;
+}
+.mark-up-2 i {
+    width: 100px;
+    height: 20px;
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/common/img/star_s_a5b6ed7.png) 0 40px;
+}
+.mark-up-22 {
+    width: 50px;
+    height: 10px;
+    background-color: #00b38a;
+    border-radius: 20px;
+}
+.mark-up-3 {
+    display: flex;
+    align-items: center;
+}
+.mark-up-333 {
+    width: 109px;
+    height: 20px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/common/img/star_s_a5b6ed7.png) 0 20px;
+}
+.mark-up-3 i {
+    width: 67px;
+    height: 20px;
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/common/img/star_s_a5b6ed7.png) 0 60px;
+}
+.mark-up-33 {
+    width: 23px;
+    height: 10px;
+    background-color: #00b38a;
+    border-radius: 20px;
+}
+.mark-up-4 {
+    display: flex;
+    align-items: center;
+}
+.mark-up-444 {
+    width: 109px;
+    height: 20px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/common/img/star_s_a5b6ed7.png) 0 20px;
+}
+.mark-up-4 i {
+    width: 46px;
+    height: 20px;
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/common/img/star_s_a5b6ed7.png) 0 60px;
+}
+.mark-up-44 {
+    /* width: 30px; */
+    
+    height: 10px;
+    background-color: #00b38a;
+    border-radius: 20px;
+}
+.mark-up-5 {
+    display: flex;
+    align-items: center;
+}
+.mark-up-555 {
+    width: 109px;
+    height: 20px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/common/img/star_s_a5b6ed7.png) 0 20px;
+}
+.mark-up-5 i {
+    width: 23px;
+    height: 20px;
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/common/img/star_s_a5b6ed7.png) 0 0px;
+}
+.mark-up-55 {
+    width: 10px;
+    height: 10px;
+    background-color: #00b38a;
+    border-radius: 20px;
+}
+.mark-2:hover .mark-up {
+    display: block;
+}
+.mark-2 .mark-1 .mark-2 .mark-up span {
+    color: #333
+}
 .mark-1 span:last-child {
     margin-left: 12px;
     color: #fd5f39;
@@ -930,6 +1070,7 @@ h4::after {
     left: -27px;
     border-radius: 5px;
     display: none;
+    box-shadow: 1px 1px 1px #ddd;
 }
 .suspension-1 span:first-child {
     color: #999999;
@@ -956,7 +1097,7 @@ h4::after {
     height: 20px;
     margin: 10px 10px;
     position: relative;
-    top: -2px;
+    top: 3px;
     background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/common/img/star_s_a5b6ed7.png) 0px -60px no-repeat;
 }
 .wang-right .suspension-3 i {
@@ -1000,6 +1141,9 @@ h4::after {
     display: inline-block;
     background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/common/img/star_s_a5b6ed7.png) 0 80px;
 }
+.wang-4:hover .suspension {
+    display: block;
+}
 .wang-5 {
     width: 109px;
     height: 20px;
@@ -1012,6 +1156,54 @@ h4::after {
     height: 20px;
     display: inline-block;
     background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/common/img/star_s_a5b6ed7.png) 0 40px;
+}
+.wang-5:hover .suspension {
+    display: block;
+}
+.wang-right .suspension-2 {
+    display: inline-block;
+    width: 109px;
+    height: 20px;
+    margin: 10px 10px;
+    position: relative;
+    top: 3px;
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/common/img/star_s_a5b6ed7.png) 0px -60px no-repeat;
+}
+.wang-right .suspension-2 i {
+    display: inline-block;
+    width: 109px;
+    height: 20px;
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/common/img/star_s_a5b6ed7.png) 0px -40px no-repeat;
+}
+.wang-right .suspension-3 {
+    display: inline-block;
+    width: 109px;
+    height: 20px;
+    margin: 10px 10px;
+    position: relative;
+    top: 3px;
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/common/img/star_s_a5b6ed7.png) 0px -60px no-repeat;
+}
+.wang-right .suspension-3 i {
+    display: inline-block;
+    width: 69px;
+    height: 20px;
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/common/img/star_s_a5b6ed7.png) 0px -40px no-repeat;
+}
+.wang-right .suspension-4 {
+    display: inline-block;
+    width: 109px;
+    height: 20px;
+    margin: 10px 10px;
+    position: relative;
+    top: 3px;
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/common/img/star_s_a5b6ed7.png) 0px -60px no-repeat;
+}
+.wang-right .suspension-4 i {
+    display: inline-block;
+    width: 109px;
+    height: 20px;
+    background: url(https://www.lgstatic.com/lg-www-fed/company-c/modules/common/img/star_s_a5b6ed7.png) 0px -40px no-repeat;
 }
 .wang-1 ul li a {
     color: #555555;
