@@ -374,9 +374,13 @@ input {
     border: 1px solid #00b38a;
 }
 
-.big-1:hover .pull-down {
+
+/* hover下拉框 */
+
+
+/* .big-1:hover .pull-down {
     display: block;
-}
+} */
 
 
 /* .pull-down-hidden {
@@ -434,11 +438,6 @@ input {
 .pull-1:hover span {
     color: #ffffff;
 }
-
-
-/* .pull-1 span:hover {
-   
-} */
 
 .pull-down-right {
     color: #777777;
@@ -865,10 +864,18 @@ top: 10px; */
     color: #00B38A;
 }
 
+.more-1 a {
+    color: #00B38A;
+}
+
 .more-1:hover {
     width: 389px;
     height: 44px;
     background-color: #00B38A;
+    color: #ffffff;
+}
+
+.more-1:hover a {
     color: #ffffff;
 }
 
@@ -1033,6 +1040,26 @@ p.four-type {
     color: #bebebe;
     position: relative;
     right: -77px;
+}
+
+.link-2 {
+    color: #bebebe;
+    position: absolute;
+    right: -116px;
+    top: -27px;
+    z-index: 25;
+    background: #ffffff;
+}
+
+.link-hiden {
+    width: 1080px;
+    height: 332px;
+    margin: 15px auto;
+    display: inline-block;
+    position: relative;
+    left: -26px;
+    top: -8px;
+    display: none;
 }
 
 
@@ -1295,4 +1322,8 @@ span.wechat-1 {
     width: 198px;
     height: 19px;
     background: url(https://www.lgstatic.com/lg-www-fed/common/widgets/footer_c/modules/img/footer_lagou_icon_75f0ebc.png);
+}
+
+background: url(https://www.lgstatic.com/lg-www-fed/common/widgets/footer_c/modules/img/footer_lagou_icon_75f0ebc.png);
+
 }
