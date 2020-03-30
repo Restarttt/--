@@ -1246,19 +1246,25 @@
      <!-- 点击出现下拉框 -->
      <script>
      $('.big-1').click(function(){
-         $('.pull-down').toggle()
+         $('.pull-down').show()
+         console.log(4)
+         return false;
+        //  阻止事件冒泡
      
      })
-    //  $('body').click(function(){
-    //      $('.pull-down').hide()
-    //  })
+     $('body').click(function(){
+         $('.pull-down').hide()
+        console.log(3)
+     })
 
      $('.link-1').click(function(){
-         $('.link-hiden').toggle()         
+         $('.link-hiden').show()         
      })
-     $('link-2').click(function(){
-         $('link-hiden').hide()
+     $('.link-2').click(function(){
+         $('.link-hiden').hide()
+         console.log(2)
      })
+     
     </script>
      
 
