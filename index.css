@@ -391,17 +391,15 @@ input {
 } */
 
 .pull-down {
-    width: 709px;
+    width: 708px;
     height: 297px;
     position: absolute;
     border: 1px solid #bebebe;
     z-index: 2;
     border-top: 0;
     background-color: #ffffff;
-    display: flex;
     display: none;
-    top：46px;
-    /* overflow: scroll; */
+    top: 48px;
 }
 
 .pull-down-left {
@@ -439,18 +437,15 @@ input {
     color: #ffffff;
 }
 
-.pull-down-right {
-    color: #777777;
-    /* display: inline-block; */
-    width: 60px;
-    height: 100%;
-}
-
 .pull-down-right span {
     display: inline-block;
     width: 60px;
     line-height: 37px;
     text-align: center;
+    color: #777777;
+    position: absolute;
+    top: 1px;
+    right: 0;
 }
 
 .big-1 button {
@@ -461,6 +456,7 @@ input {
     border: 1px solid #00b38a;
     color: #ffffff;
     vertical-align: top;
+    position: absolute;
 }
 
 
@@ -548,11 +544,6 @@ input {
 .side-pull-2 ul li {
     margin-bottom: 5px;
 }
-
-
-/* .side-pull-2 ul li a:nth-child(4) {
-    color: #ff00ff;
-} */
 
 .side-pull-2 ul li a {
     font-size: 14px;
@@ -864,7 +855,7 @@ top: 10px; */
     color: #00B38A;
 }
 
-.more-1 a {
+a.more-1 {
     color: #00B38A;
 }
 
@@ -1025,6 +1016,10 @@ p.four-type {
     left: -38px;
 }
 
+.link span {
+    margin-bottom: 10px;
+}
+
 .link span a {
     color: #555555;
     padding: 15px 18px 10px 0;
@@ -1053,13 +1048,17 @@ p.four-type {
 
 .link-hiden {
     width: 1080px;
-    height: 332px;
+    height: 66px;
     margin: 15px auto;
     display: inline-block;
     position: relative;
     left: -26px;
     top: -8px;
     display: none;
+}
+
+.link-hiden span {
+    display: inline-block;
 }
 
 

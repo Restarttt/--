@@ -377,6 +377,7 @@ background-color: #24282C;
     
     font-size: 16px;
     padding: 13px 15px;
+    position: relative;
 }
 .seek-2 {
     width: 146px;
@@ -384,6 +385,57 @@ background-color: #24282C;
     color: #ffffff;
     background-color: #00B38A;
     padding: 13px 16px;
+}
+
+/* 下拉框 */
+.seek-pull {
+    width: 730px;
+    height: 310px;
+    z-index: 5;
+    position: absolute;
+    display: none;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .08);
+    background-color: #fff;
+    top: 278px;
+}
+.pull-down-left {
+    /* display: inline-block; */
+    
+    width: 650px;
+    height: 100%;
+    border-right: 1px dashed #D5DADF;
+}
+.pull-1 {
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+}
+.pull-1 span {
+    margin: 8px 16px;
+    color: #555;
+}
+.pull-1 .pull-2 {
+    color: #00B38A;
+    margin: 8px 0;
+}
+.pull-2 span {
+    color: #00b38a;
+}
+.pull-1:hover {
+    background-color: #00b38a;
+}
+.pull-1:hover span {
+    color: #ffffff;
+}
+.pull-down-right span {
+    display: inline-block;
+    width: 60px;
+    line-height: 37px;
+    text-align: center;
+    color: #777777;
+    position: absolute;
+    top: 1px;
+    right: 9px;
 }
 
 /* 第三行文字 */

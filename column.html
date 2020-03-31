@@ -93,7 +93,57 @@
             </div>
             <div class="seek">
                 <input class="seek-1" type="text" value="web前端"><input class="seek-2" type="submit" value="搜索">
+                <div class="seek-pull">
+                    <div class="pull-down-left">
+                        <div class="pull-1">
+                            <span>前端</span>
+                            <span>大于<span class="pull-2">450个</span>职位</span>
 
+                        </div>
+                        <div class="pull-1">
+                            <span>前端实习</span>
+                            <span>大于<span class="pull-2">450个</span>职位</span>
+
+                        </div>
+                        <div class="pull-1">
+                            <span>前端实习生</span>
+                            <span>大于<span class="pull-2">450个</span>职位</span>
+
+                        </div>
+                        <div class="pull-1">
+                            <span>前端开发工程师</span>
+                            <span>大于<span class="pull-2">450个</span>职位</span>
+
+                        </div>
+                        <div class="pull-1">
+                            <span>前端开发</span>
+                            <span>大于<span class="pull-2">450个</span>职位</span>
+
+                        </div>
+                        <div class="pull-1">
+                            <span>前端开发工程师</span>
+                            <span>大于<span class="pull-2">450个</span>职位</span>
+
+                        </div>
+                        <div class="pull-1">
+                            <span>前端架构师</span>
+                            <span>大于<span class="pull-2">450个</span>职位</span>
+
+                        </div>
+                        <div class="pull-1">
+                            <span>前端实习</span>
+                            <span>大于<span class="pull-2">450个</span>职位</span>
+
+                        </div>
+                    </div>
+
+                    <div class="pull-down-right">
+
+                        <span>职位</span>
+
+                    </div>
+
+                </div>
             </div>
             <div class="correlation">
                 <span class="correlation-1">相关搜索:</span>
@@ -105,13 +155,8 @@
                 <span>前端实习</span>
                 <span>全栈</span>
                 <span>php</span>
-
-
             </div>
-
-
         </div>
-
     </div>
     <!-- 第四部分   招聘信息 -->
     <div class="main">
@@ -972,10 +1017,20 @@
             </div>
         </div>
     </div>
+    <!-- js代码部分 -->
+    <script src="./js/jquery-3.3.1/jquery-3.3.1.js"></script>
+    <script>
+        $('.seek-1').click(function() {
+            $('.seek-pull').show()
+            return false;
+            console.log(1)
+        })
+        $('body').click(function() {
+            $('.seek-pull').hide()
+            console.log(2)
 
-
-
-
+        })
+    </script>
 </body>
 
 </html>
